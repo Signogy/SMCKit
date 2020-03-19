@@ -1,723 +1,610 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		4C982BE01A040CD500F4A639 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C982BDF1A040CD500F4A639 /* main.swift */; };
-		4C982BE41A040CE200F4A639 /* SMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE566A71A00A49600787F6B /* SMC.swift */; };
-		4CA091201F8C4FCC00623AEF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0911F1F8C4FCC00623AEF /* README.md */; };
-		4CA091231F8C517E00623AEF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4CA091211F8C517E00623AEF /* LICENSE */; };
-		4CA091241F8C517E00623AEF /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4CA091221F8C517E00623AEF /* Makefile */; };
-		4CDDA6A01AEC0D010037CE7B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDA69F1AEC0D010037CE7B /* main.swift */; };
-		4CDDA6A41AEC0D580037CE7B /* SMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE566A71A00A49600787F6B /* SMC.swift */; };
-		4CE566911A00A48800787F6B /* SMCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE566901A00A48800787F6B /* SMCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CE566971A00A48800787F6B /* SMCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE5668B1A00A48800787F6B /* SMCKit.framework */; };
-		4CE5669E1A00A48800787F6B /* SMCKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5669D1A00A48800787F6B /* SMCKitTests.swift */; };
-		4CE566A81A00A49600787F6B /* SMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE566A71A00A49600787F6B /* SMC.swift */; };
-		4CE5BC241B1F85880030FA55 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5BC211B1F85880030FA55 /* CommandLine.swift */; };
-		4CE5BC251B1F85880030FA55 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5BC221B1F85880030FA55 /* Option.swift */; };
-		4CE5BC261B1F85880030FA55 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5BC231B1F85880030FA55 /* StringExtensions.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4CE566981A00A48800787F6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CE566821A00A48800787F6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CE5668A1A00A48800787F6B;
-			remoteInfo = SMCKit;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		4C982BDB1A040CD500F4A639 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		4CDDA69B1AEC0D010037CE7B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		4C982BDD1A040CD500F4A639 /* SMCKitTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SMCKitTool; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C982BDF1A040CD500F4A639 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4CA0911F1F8C4FCC00623AEF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4CA091211F8C517E00623AEF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4CA091221F8C517E00623AEF /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		4CDDA69D1AEC0D010037CE7B /* powermetricsTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = powermetricsTests; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CDDA69F1AEC0D010037CE7B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4CE5668B1A00A48800787F6B /* SMCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CE5668F1A00A48800787F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CE566901A00A48800787F6B /* SMCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMCKit.h; sourceTree = "<group>"; };
-		4CE566961A00A48800787F6B /* SMCKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMCKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CE5669C1A00A48800787F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CE5669D1A00A48800787F6B /* SMCKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMCKitTests.swift; sourceTree = "<group>"; };
-		4CE566A71A00A49600787F6B /* SMC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMC.swift; sourceTree = "<group>"; };
-		4CE5BC211B1F85880030FA55 /* CommandLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandLine.swift; path = lib/CommandLine/CommandLineKit/CommandLine.swift; sourceTree = "<group>"; };
-		4CE5BC221B1F85880030FA55 /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Option.swift; path = lib/CommandLine/CommandLineKit/Option.swift; sourceTree = "<group>"; };
-		4CE5BC231B1F85880030FA55 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = lib/CommandLine/CommandLineKit/StringExtensions.swift; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		4C982BDA1A040CD500F4A639 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CDDA69A1AEC0D010037CE7B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CE566871A00A48800787F6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CE566931A00A48800787F6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CE566971A00A48800787F6B /* SMCKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		21CFC7772423AD1C00331168 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				4CE5668D1A00A48800787F6B /* SMCKit */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		21CFC7782423AD2000331168 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				4CE5669A1A00A48800787F6B /* SMCKitTests */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		4C982BDE1A040CD500F4A639 /* SMCKitTool */ = {
-			isa = PBXGroup;
-			children = (
-				4CE5BC1F1B1F855C0030FA55 /* lib */,
-				4C982BDF1A040CD500F4A639 /* main.swift */,
-			);
-			path = SMCKitTool;
-			sourceTree = "<group>";
-		};
-		4CDDA69E1AEC0D010037CE7B /* powermetricsTests */ = {
-			isa = PBXGroup;
-			children = (
-				4CDDA69F1AEC0D010037CE7B /* main.swift */,
-			);
-			path = powermetricsTests;
-			sourceTree = "<group>";
-		};
-		4CE566811A00A48800787F6B = {
-			isa = PBXGroup;
-			children = (
-				4CA0911F1F8C4FCC00623AEF /* README.md */,
-				4CA091221F8C517E00623AEF /* Makefile */,
-				4CA091211F8C517E00623AEF /* LICENSE */,
-				21CFC7772423AD1C00331168 /* Sources */,
-				21CFC7782423AD2000331168 /* Tests */,
-				4C982BDE1A040CD500F4A639 /* SMCKitTool */,
-				4CDDA69E1AEC0D010037CE7B /* powermetricsTests */,
-				4CE5668C1A00A48800787F6B /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		4CE5668C1A00A48800787F6B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4CE5668B1A00A48800787F6B /* SMCKit.framework */,
-				4CE566961A00A48800787F6B /* SMCKitTests.xctest */,
-				4C982BDD1A040CD500F4A639 /* SMCKitTool */,
-				4CDDA69D1AEC0D010037CE7B /* powermetricsTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4CE5668D1A00A48800787F6B /* SMCKit */ = {
-			isa = PBXGroup;
-			children = (
-				4CE566A71A00A49600787F6B /* SMC.swift */,
-				4CE566901A00A48800787F6B /* SMCKit.h */,
-				4CE5668E1A00A48800787F6B /* Supporting Files */,
-			);
-			path = SMCKit;
-			sourceTree = "<group>";
-		};
-		4CE5668E1A00A48800787F6B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4CE5668F1A00A48800787F6B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4CE5669A1A00A48800787F6B /* SMCKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				4CE5669D1A00A48800787F6B /* SMCKitTests.swift */,
-				4CE5669B1A00A48800787F6B /* Supporting Files */,
-			);
-			path = SMCKitTests;
-			sourceTree = "<group>";
-		};
-		4CE5669B1A00A48800787F6B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4CE5669C1A00A48800787F6B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4CE5BC1F1B1F855C0030FA55 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				4CE5BC201B1F856B0030FA55 /* CommandLine */,
-			);
-			name = lib;
-			sourceTree = "<group>";
-		};
-		4CE5BC201B1F856B0030FA55 /* CommandLine */ = {
-			isa = PBXGroup;
-			children = (
-				4CE5BC211B1F85880030FA55 /* CommandLine.swift */,
-				4CE5BC221B1F85880030FA55 /* Option.swift */,
-				4CE5BC231B1F85880030FA55 /* StringExtensions.swift */,
-			);
-			name = CommandLine;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		4CE566881A00A48800787F6B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CE566911A00A48800787F6B /* SMCKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		4C982BDC1A040CD500F4A639 /* SMCKitTool */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4C982BE31A040CD500F4A639 /* Build configuration list for PBXNativeTarget "SMCKitTool" */;
-			buildPhases = (
-				4C982BD91A040CD500F4A639 /* Sources */,
-				4C982BDA1A040CD500F4A639 /* Frameworks */,
-				4C982BDB1A040CD500F4A639 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SMCKitTool;
-			productName = SMCKitTool;
-			productReference = 4C982BDD1A040CD500F4A639 /* SMCKitTool */;
-			productType = "com.apple.product-type.tool";
-		};
-		4CDDA69C1AEC0D010037CE7B /* powermetricsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CDDA6A31AEC0D010037CE7B /* Build configuration list for PBXNativeTarget "powermetricsTests" */;
-			buildPhases = (
-				4CDDA6991AEC0D010037CE7B /* Sources */,
-				4CDDA69A1AEC0D010037CE7B /* Frameworks */,
-				4CDDA69B1AEC0D010037CE7B /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = powermetricsTests;
-			productName = powermetricsTests;
-			productReference = 4CDDA69D1AEC0D010037CE7B /* powermetricsTests */;
-			productType = "com.apple.product-type.tool";
-		};
-		4CE5668A1A00A48800787F6B /* SMCKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CE566A11A00A48800787F6B /* Build configuration list for PBXNativeTarget "SMCKit" */;
-			buildPhases = (
-				4CE566861A00A48800787F6B /* Sources */,
-				4CE566871A00A48800787F6B /* Frameworks */,
-				4CE566881A00A48800787F6B /* Headers */,
-				4CE566891A00A48800787F6B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SMCKit;
-			productName = SMCKit;
-			productReference = 4CE5668B1A00A48800787F6B /* SMCKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4CE566951A00A48800787F6B /* SMCKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CE566A41A00A48800787F6B /* Build configuration list for PBXNativeTarget "SMCKitTests" */;
-			buildPhases = (
-				4CE566921A00A48800787F6B /* Sources */,
-				4CE566931A00A48800787F6B /* Frameworks */,
-				4CE566941A00A48800787F6B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CE566991A00A48800787F6B /* PBXTargetDependency */,
-			);
-			name = SMCKitTests;
-			productName = SMCKitTests;
-			productReference = 4CE566961A00A48800787F6B /* SMCKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		4CE566821A00A48800787F6B /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = beltex;
-				TargetAttributes = {
-					4C982BDC1A040CD500F4A639 = {
-						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 1130;
-					};
-					4CDDA69C1AEC0D010037CE7B = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 1130;
-					};
-					4CE5668A1A00A48800787F6B = {
-						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0900;
-					};
-					4CE566951A00A48800787F6B = {
-						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0900;
-					};
-				};
-			};
-			buildConfigurationList = 4CE566851A00A48800787F6B /* Build configuration list for PBXProject "SMCKit" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 4CE566811A00A48800787F6B;
-			productRefGroup = 4CE5668C1A00A48800787F6B /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				4CE5668A1A00A48800787F6B /* SMCKit */,
-				4CE566951A00A48800787F6B /* SMCKitTests */,
-				4CDDA69C1AEC0D010037CE7B /* powermetricsTests */,
-				4C982BDC1A040CD500F4A639 /* SMCKitTool */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		4CE566891A00A48800787F6B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CA091231F8C517E00623AEF /* LICENSE in Resources */,
-				4CA091201F8C4FCC00623AEF /* README.md in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CE566941A00A48800787F6B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		4C982BD91A040CD500F4A639 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CE5BC251B1F85880030FA55 /* Option.swift in Sources */,
-				4CE5BC241B1F85880030FA55 /* CommandLine.swift in Sources */,
-				4CE5BC261B1F85880030FA55 /* StringExtensions.swift in Sources */,
-				4C982BE41A040CE200F4A639 /* SMC.swift in Sources */,
-				4C982BE01A040CD500F4A639 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CDDA6991AEC0D010037CE7B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CDDA6A41AEC0D580037CE7B /* SMC.swift in Sources */,
-				4CDDA6A01AEC0D010037CE7B /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CE566861A00A48800787F6B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CA091241F8C517E00623AEF /* Makefile in Sources */,
-				4CE566A81A00A49600787F6B /* SMC.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CE566921A00A48800787F6B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CE5669E1A00A48800787F6B /* SMCKitTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4CE566991A00A48800787F6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CE5668A1A00A48800787F6B /* SMCKit */;
-			targetProxy = 4CE566981A00A48800787F6B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		4C982BE11A040CD500F4A639 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		4C982BE21A040CD500F4A639 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		4CDDA6A11AEC0D010037CE7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		4CDDA6A21AEC0D010037CE7B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		4CE5669F1A00A48800787F6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4CE566A01A00A48800787F6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4CE566A21A00A48800787F6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SMCKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "beltex.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		4CE566A31A00A48800787F6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SMCKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "beltex.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		4CE566A51A00A48800787F6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SMCKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "beltex.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		4CE566A61A00A48800787F6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SMCKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "beltex.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		4C982BE31A040CD500F4A639 /* Build configuration list for PBXNativeTarget "SMCKitTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C982BE11A040CD500F4A639 /* Debug */,
-				4C982BE21A040CD500F4A639 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CDDA6A31AEC0D010037CE7B /* Build configuration list for PBXNativeTarget "powermetricsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CDDA6A11AEC0D010037CE7B /* Debug */,
-				4CDDA6A21AEC0D010037CE7B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CE566851A00A48800787F6B /* Build configuration list for PBXProject "SMCKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CE5669F1A00A48800787F6B /* Debug */,
-				4CE566A01A00A48800787F6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CE566A11A00A48800787F6B /* Build configuration list for PBXNativeTarget "SMCKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CE566A21A00A48800787F6B /* Debug */,
-				4CE566A31A00A48800787F6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CE566A41A00A48800787F6B /* Build configuration list for PBXNativeTarget "SMCKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CE566A51A00A48800787F6B /* Debug */,
-				4CE566A61A00A48800787F6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 4CE566821A00A48800787F6B /* Project object */;
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastSwiftMigration = "9999";
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "en";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_16";
+         projectDirPath = ".";
+         targets = (
+            "SMCKit::SMCKit",
+            "SMCKit::SwiftPMPackageDescription",
+            "SMCKit::SMCKitPackageTests::ProductTarget",
+            "SMCKit::SMCKitTests"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXFileReference";
+         path = "Info.plist";
+         sourceTree = "<group>";
+      };
+      "OBJ_11" = {
+         isa = "PBXFileReference";
+         path = "SMC.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_12" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_13"
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_13" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_14",
+            "OBJ_15"
+         );
+         name = "SMCKitTests";
+         path = "Tests/SMCKitTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_14" = {
+         isa = "PBXFileReference";
+         path = "Info.plist";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXFileReference";
+         path = "SMCKitTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_16" = {
+         isa = "PBXGroup";
+         children = (
+            "SMCKit::SMCKitTests::Product",
+            "SMCKit::SMCKit::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "SMCKitTool";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "powermetricsTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_21" = {
+         isa = "PBXFileReference";
+         path = "docs";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_22" = {
+         isa = "PBXFileReference";
+         path = "LICENSE";
+         sourceTree = "<group>";
+      };
+      "OBJ_23" = {
+         isa = "PBXFileReference";
+         path = "Makefile";
+         sourceTree = "<group>";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_26" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_27",
+            "OBJ_28"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_27" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SMCKit.xcodeproj/SMCKit_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "SMCKit";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "SMCKit";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_28" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SMCKit.xcodeproj/SMCKit_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "SMCKit";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "SMCKit";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_29" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_30"
+         );
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_30" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_11";
+      };
+      "OBJ_31" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_33" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_34",
+            "OBJ_35"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_34" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_35" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_36" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_37"
+         );
+      };
+      "OBJ_37" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_39" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_40",
+            "OBJ_41"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_41" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_42" = {
+         isa = "PBXTargetDependency";
+         target = "SMCKit::SMCKitTests";
+      };
+      "OBJ_44" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_45",
+            "OBJ_46"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_45" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SMCKit.xcodeproj/SMCKitTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "SMCKitTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_46" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SMCKit.xcodeproj/SMCKitTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "SMCKitTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_47" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_48"
+         );
+      };
+      "OBJ_48" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_15";
+      };
+      "OBJ_49" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_50"
+         );
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_12",
+            "OBJ_16",
+            "OBJ_19",
+            "OBJ_20",
+            "OBJ_21",
+            "OBJ_22",
+            "OBJ_23",
+            "OBJ_24"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_50" = {
+         isa = "PBXBuildFile";
+         fileRef = "SMCKit::SMCKit::Product";
+      };
+      "OBJ_51" = {
+         isa = "PBXTargetDependency";
+         target = "SMCKit::SMCKit";
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8"
+         );
+         name = "Sources";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_8" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_9",
+            "OBJ_10",
+            "OBJ_11"
+         );
+         name = "SMCKit";
+         path = "Sources/SMCKit";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_9" = {
+         isa = "PBXFileReference";
+         path = "SMCKit.h";
+         sourceTree = "<group>";
+      };
+      "SMCKit::SMCKit" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_26";
+         buildPhases = (
+            "OBJ_29",
+            "OBJ_31"
+         );
+         dependencies = (
+         );
+         name = "SMCKit";
+         productName = "SMCKit";
+         productReference = "SMCKit::SMCKit::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "SMCKit::SMCKit::Product" = {
+         isa = "PBXFileReference";
+         path = "SMCKit.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "SMCKit::SMCKitPackageTests::ProductTarget" = {
+         isa = "PBXAggregateTarget";
+         buildConfigurationList = "OBJ_39";
+         buildPhases = (
+         );
+         dependencies = (
+            "OBJ_42"
+         );
+         name = "SMCKitPackageTests";
+         productName = "SMCKitPackageTests";
+      };
+      "SMCKit::SMCKitTests" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_44";
+         buildPhases = (
+            "OBJ_47",
+            "OBJ_49"
+         );
+         dependencies = (
+            "OBJ_51"
+         );
+         name = "SMCKitTests";
+         productName = "SMCKitTests";
+         productReference = "SMCKit::SMCKitTests::Product";
+         productType = "com.apple.product-type.bundle.unit-test";
+      };
+      "SMCKit::SMCKitTests::Product" = {
+         isa = "PBXFileReference";
+         path = "SMCKitTests.xctest";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "SMCKit::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_33";
+         buildPhases = (
+            "OBJ_36"
+         );
+         dependencies = (
+         );
+         name = "SMCKitPackageDescription";
+         productName = "SMCKitPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+   };
+   rootObject = "OBJ_1";
 }
