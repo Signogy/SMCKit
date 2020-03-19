@@ -1,6 +1,7 @@
 # Swift.gitignore @ https://github.com/github/gitignore
 
 # Xcode
+.build/
 build/
 *.pbxuser
 !default.pbxuser
