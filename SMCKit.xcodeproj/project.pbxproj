@@ -107,6 +107,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21CFC7772423AD1C00331168 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4CE5668D1A00A48800787F6B /* SMCKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		21CFC7782423AD2000331168 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CE5669A1A00A48800787F6B /* SMCKitTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		4C982BDE1A040CD500F4A639 /* SMCKitTool */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,10 +146,10 @@
 				4CA0911F1F8C4FCC00623AEF /* README.md */,
 				4CA091221F8C517E00623AEF /* Makefile */,
 				4CA091211F8C517E00623AEF /* LICENSE */,
-				4CE5668D1A00A48800787F6B /* SMCKit */,
-				4CE5669A1A00A48800787F6B /* SMCKitTests */,
-				4CDDA69E1AEC0D010037CE7B /* powermetricsTests */,
+				21CFC7772423AD1C00331168 /* Sources */,
+				21CFC7782423AD2000331168 /* Tests */,
 				4C982BDE1A040CD500F4A639 /* SMCKitTool */,
+				4CDDA69E1AEC0D010037CE7B /* powermetricsTests */,
 				4CE5668C1A00A48800787F6B /* Products */,
 			);
 			sourceTree = "<group>";
