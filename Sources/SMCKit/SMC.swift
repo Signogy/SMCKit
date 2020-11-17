@@ -254,7 +254,7 @@ public struct SMCKey {
 
 public struct DataType: Equatable {
     let type: FourCharCode
-    let size: UInt32
+    let size: UInt64
 }
 
 public func ==(lhs: DataType, rhs: DataType) -> Bool {
@@ -325,7 +325,7 @@ public struct SMCKit {
         let outputStruct = try callDriver(&inputStruct)
 
         return DataType(type: outputStruct.keyInfo.dataType,
-                        size: UInt32(outputStruct.keyInfo.dataSize))
+                        size: UInt64(outputStruct.keyInfo.dataSize))
     }
 
     /// Get information about the key at index
