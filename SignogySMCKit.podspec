@@ -62,13 +62,9 @@ Pod::Spec.new do |s|
     #
   
     s.platform     = :osx
-    # s.platform     = :ios, "5.0"
   
     #  When using multiple platforms
-    # s.ios.deployment_target = "5.0"
     s.osx.deployment_target = "10.12"
-    # s.watchos.deployment_target = "2.0"
-    # s.tvos.deployment_target = "9.0"
     s.swift_version = "4.2"
   
     # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,7 +84,7 @@ Pod::Spec.new do |s|
     #  Not including the public_header_files will make all headers public.
     #
   
-    s.source_files  = "SMCKit", "SMCKit/**/*.{h,swift}"
+    s.source_files  = "SMCKit", "SMCKit/*.{h,swift}"
     s.exclude_files = "SMCKit/Exclude"
   
     # s.public_header_files = "Classes/**/*.h"
