@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
     #  Not including the public_header_files will make all headers public.
     #
   
-    s.source_files  = "SMCKit", "SMCKit/*.{h,swift}"
+    s.source_files  = "SMCKit", "SMCKit/Sources/SMCKit/*.{h,swift}"
     s.exclude_files = "SMCKit/Exclude"
   
     # s.public_header_files = "Classes/**/*.h"
